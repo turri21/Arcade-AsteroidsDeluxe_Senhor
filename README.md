@@ -1,3 +1,15 @@
+-=(AsteroidsDeluxe_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+Dev notes: The following settings have been added in Arcade-AsteroidsDeluxe.qsf:
+
+set_global_assignment -name FITTER_AGGRESSIVE_ROUTABILITY_OPTIMIZATION NEVER
+
+set_global_assignment -name ADVANCED_PHYSICAL_OPTIMIZATION OFF
+
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING OFF
+___
 # [Arcade: Asteroids Deluxe](https://www.arcade-museum.com/game_detail.php?game_id=6940) for [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
 
 The original source code was downloaded from: http://fpgaarcade.com/games.htm
